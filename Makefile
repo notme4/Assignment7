@@ -21,12 +21,23 @@ $(OBJS): SRC = ${@:.o=.cpp}
 # ===============================================================
 # Targets
 
-all:
+build:
 	make $(EXES)
 
 run: $(EXES)
-	./log_s &
+	make run_server run_log run_client
+
+run_server: echo_s
 	./echo_s 8080 7070 6060 &
+	sleep 1
+
+run_client: echo_c
+	./echo_c 8080
+	
+
+run_log: log_s
+	./log_s &
+	sleep 1
 
 kill:
 	killall -o 1s ./log_s
