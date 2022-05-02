@@ -1,7 +1,7 @@
-> Purpose:	Practice UDP/TCP socket networking for CS 3377
-> Author:	Connor Funk
-> Date:		May 01, 2022
-> Version:	2.0
+> Purpose:	Practice UDP/TCP socket networking for CS 3377  
+> Author:	Connor Funk  
+> Date:		May 01, 2022  
+> Version:	2.0  
 
 there are 2 ways to set up the servers
 1) you can run 'make run' which will build and run log_s and echo_s in the background this automattically sets the ports of echo_s to 6060 7070 and 8080, this also builds and runs echo_c
