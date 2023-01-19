@@ -16,3 +16,4 @@ to kill the servers, just run 'make kill', which will kill processses named ./ec
 
 NOTES:
 * the log logs empty messages not sent, possibly connect/exit messages
+* Assignment 7 was to put assignment 6 on github, with some minor changes logged with git
